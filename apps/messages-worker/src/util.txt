@@ -1,0 +1,5 @@
+kafka-console-producer.sh --bootstrap-server localhost:9092 --topic NewTopic
+docker exec -it CONTAINER redis-cli
+redis-cli
+AUTH "eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81"
+SUBSCRIBE NewTopic
